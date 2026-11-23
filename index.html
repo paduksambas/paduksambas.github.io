@@ -2,25 +2,42 @@
 <html lang="id">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Dashboard publik MD V14 Paduka Sambas — global trend intelligence dan strategic monitoring.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; frame-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'">
   <title>MD V14 — Paduka Sambas</title>
   <style>
     * { box-sizing: border-box; }
     html, body { margin: 0; width: 100%; min-height: 100%; background: #0b1220; }
-    body { min-height: 100vh; }
-    iframe { display: block; width: 100%; height: 100vh; border: 0; background: #fff; }
-    noscript { display:block; padding:1rem; color:#fff; font:16px system-ui,sans-serif; }
+    body { min-height: 100vh; min-height: 100svh; }
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100vh;
+      height: 100svh;
+      height: 100dvh;
+      min-height: 100vh;
+      min-height: 100svh;
+      border: 0;
+      background: #101827;
+    }
+    noscript { display: block; padding: 1rem; color: #fff; font: 16px/1.5 system-ui, sans-serif; }
+    noscript a { color: #9cc8ff; }
   </style>
 </head>
 <body>
   <iframe
     src="https://paduksambas.github.io/MD-V14-PADUKA-SAMBAS/"
-    title="Dashboard MD V14 Paduka Sambas"
+    title="Dashboard publik MD V14 Paduka Sambas"
     loading="eager"
     allow="fullscreen"
-    referrerpolicy="strict-origin-when-cross-origin">
+    referrerpolicy="no-referrer">
   </iframe>
-  <noscript>Dashboard MD V14 tersedia di <a href="https://paduksambas.github.io/MD-V14-PADUKA-SAMBAS/">halaman dashboard</a>. Aktifkan JavaScript untuk menampilkannya di sini.</noscript>
+  <noscript>
+    Dashboard MD V14 tersedia di
+    <a href="https://paduksambas.github.io/MD-V14-PADUKA-SAMBAS/">halaman dashboard langsung</a>.
+  </noscript>
 </body>
 </html>
